@@ -1,0 +1,68 @@
+
+page-inicio {
+  font-family: 'Bariol';
+  color: #FFFFFF;
+}
+
+/* Parte 1 - Encabezado*/
+
+/* Header Titulo */
+.inHTitle{
+  text-align: center !important;
+  font-size: 15px;
+}
+
+.inHTitle img{
+  width: 75px;
+  margin-left: 60px;
+}
+
+/* Header Icono */
+.inHIcon{
+
+}
+
+/* Parte 2 - Seccion 1 */
+
+
+/* Bloque 1 */
+.inS1{
+  background-color: #00DDC1;
+  height: 160px;
+}
+
+.inS1Btn1{
+  background-color: #9C28B0;
+  border-radius: 10px;
+  text-transform: none;
+  font-size: 19px;
+  width: 95%;
+  margin-left: 2%;
+}
+
+.inS1Title{
+  text-align: center;
+  color: #263147;
+}
+
+.inS1Inptu1
+{
+    border-radius: 10px; /* CSS3 */
+    height: 40px;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.inS1Btn2{
+  border-radius: 10px;
+  margin-top: -38px;
+  float: right;
+  margin-right: 3%;
+}
+
+
+
+.titulo2{
+  color: #A7A9AC;
+  text-align: center;
+}

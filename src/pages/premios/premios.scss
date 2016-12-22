@@ -1,0 +1,36 @@
+page-premios {
+  font-family: 'Bariol'
+}
+
+/* Header */
+.encabezado{
+  font-family: "Bariol";
+  font-size: 30px;
+}
+
+/*Fuente Iconos*/
+@font-face {
+  font-family: "FrenzyText";
+  src: url("bariolblod.otf");
+}
+
+/* Bloque 1 */
+
+.codigoBoton{
+  background-color: #9C28B0;
+  border-radius: 10px;
+  font-family: "Bariol";
+}
+
+.titulo1{
+  text-align: center;
+  color: #263147;
+}
+
+.cardTit{
+  font-weight: bold !important;
+}
+
+.cardDesc{
+  color: #D2D3D4 !important;
+}

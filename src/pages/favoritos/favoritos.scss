@@ -1,0 +1,32 @@
+page-favoritos {
+  //font-family: 'Bariol';
+}
+
+.segment-md .segment-button{
+  text-transform: capitalize !important;
+  color: #00BAB9;
+  border-color: #00BAB9 !important;
+  font-size: 15px;
+}
+
+.segment-md .segment-button.segment-activated{
+  border-color: #00BAB9 !important;
+}
+
+/*Fuente Iconos*/
+@font-face {
+  font-family: "FrenzyIcon";
+  src: url("bariolfrenzyicons.ttf");
+}
+
+.buho{
+  font-family: "FrenzyIcon" !important;
+  color: #9C28B0;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.noPromo{
+  text-align: center;
+  color: #A7A9AC;
+}

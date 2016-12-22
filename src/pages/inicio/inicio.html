@@ -1,0 +1,187 @@
+<!-- Header -->
+<ion-header>
+  <ion-toolbar color="frenzy">
+    <ion-buttons start>
+      <button ion-button icon-only>
+        <ion-icon name="content"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <!-- Header  Titulo-->
+    <ion-title class="inHTitle">
+      <img src="../../assets/frenzy-icons/icn-35.png">
+    </ion-title>
+
+
+    <ion-buttons end>
+      <!-- Header Icono -->
+      <button ion-button icon-only>
+        <ion-icon class="inHIcon" ios="ios-settings" md="md-settings"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<!-- Contenido -->
+<ion-content class="contenidoInicio">
+
+  <!-- Seccion 1 -->
+  <div class="inS1" full>
+    <!-- Boton Pregunta -->
+    <button class="inS1Btn1" ion-button block (click)="openPregunta1()">¿Dónde consigo el Código de Promoción?</button>
+    <!-- Titulo -->
+     <h3 class="inS1Title">¡Gana Puntos y Premios a lo loco!</h3>
+
+     <!-- Input de Códigos -->
+     <input type="text" class="inputForm inS1Inptu1" placeholder="Ingresa el código de la promoción" />
+     <!--  -->
+     <button ion-button class="inS1Btn2" color="danger" (click)="modalCode()">GO!</button>
+   </div>
+
+   <!-- Seccion 2 -->
+   <h3 class="titulo2">Encuentra Cupones y Ofertas</h3>
+   <ion-item-sliding>
+     <ion-item>
+       <ion-avatar item-left>
+         <img src="../../assets/frenzy-icons/icn-37.png">
+       </ion-avatar>
+       <h2>Supermercado</h2>
+       <p>39 Cupones, 50 Ofertas</p>
+     </ion-item>
+     <ion-item-options>
+       <button ion-button color="light" icon-left>
+         <ion-icon name="ios-more"></ion-icon>
+         More
+       </button>
+       <button ion-button color="primary" icon-left>
+         <ion-icon name="text"></ion-icon>
+         Text
+       </button>
+       <button ion-button color="secondary" icon-left>
+         <ion-icon name="call"></ion-icon>
+         Call
+       </button>
+     </ion-item-options>
+   </ion-item-sliding>
+
+   <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="../../assets/frenzy-icons/icn-38.png">
+        </ion-avatar>
+        <h2>Restaurantes</h2>
+        <p>39 Cupones, 50 Ofertas</p>
+      </ion-item>
+      <ion-item-options>
+        <button ion-button color="light" icon-left>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button ion-button color="primary" icon-left>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button ion-button color="secondary" icon-left>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="../../assets/frenzy-icons/icn-39.png">
+        </ion-avatar>
+        <h2>Moda</h2>
+        <p>39 Cupones, 50 Ofertas</p>
+      </ion-item>
+      <ion-item-options>
+        <button ion-button color="light" icon-left>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button ion-button color="primary" icon-left>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button ion-button color="secondary" icon-left>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="../../assets/frenzy-icons/icn-40.png">
+        </ion-avatar>
+        <h2>Entretenimiento</h2>
+        <p>39 Cupones, 50 Ofertas</p>
+      </ion-item>
+      <ion-item-options>
+        <button ion-button color="light" icon-left>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button ion-button color="primary" icon-left>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button ion-button color="secondary" icon-left>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="../../assets/frenzy-icons/icn-41.png">
+        </ion-avatar>
+        <h2>Viajes y Hoteles</h2>
+        <p>39 Cupones, 50 Ofertas</p>
+      </ion-item>
+      <ion-item-options>
+        <button ion-button color="light" icon-left>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button ion-button color="primary" icon-left>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button ion-button color="secondary" icon-left>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+    <ion-item-sliding>
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="../../assets/frenzy-icons/icn-42.png">
+        </ion-avatar>
+        <h2>Otros</h2>
+        <p>39 Cupones, 50 Ofertas</p>
+      </ion-item>
+      <ion-item-options>
+        <button ion-button color="light" icon-left>
+          <ion-icon name="ios-more"></ion-icon>
+          More
+        </button>
+        <button ion-button color="primary" icon-left>
+          <ion-icon name="text"></ion-icon>
+          Text
+        </button>
+        <button ion-button color="secondary" icon-left>
+          <ion-icon name="call"></ion-icon>
+          Call
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+</ion-content>

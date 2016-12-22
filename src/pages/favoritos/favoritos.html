@@ -1,0 +1,62 @@
+<ion-header>
+  <!-- <ion-navbar no-border-bottom>
+    <ion-title>
+      Frenzy
+    </ion-title>
+  </ion-navbar> -->
+
+  <ion-toolbar no-border-top color="frenzy">
+    <ion-buttons start>
+      <button ion-button icon-only>
+        <ion-icon name="content"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-title class="encabezado">Frenzy</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon ios="ios-settings" md="md-settings"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-segment [(ngModel)]="favoritos" color="frenzy">
+    <ion-segment-button class="titulos" value="marcas">
+      Mis Marcas
+    </ion-segment-button>
+    <ion-segment-button class="titulos" value="promociones">
+      Mis Promociones
+    </ion-segment-button>
+  </ion-segment>
+</ion-header>
+
+<ion-content>
+  <div [ngSwitch]="favoritos">
+    <ion-list *ngSwitchCase="'marcas'">
+      <ion-list-header>
+          <ion-icon name="heart" color="danger" item-left></ion-icon>
+        <button ion-item icon-left>
+          Dominos Pizza
+        </button>
+        <div class="button-effect"></div>
+      </ion-list-header>
+
+      <ion-item>
+        <h2>2X1 Pizzas Grandes de 1 ingrediente</h2>
+        <h3>Oferta - Q.99.00</h3>
+        <p>15% de descuento en Pizza...</p>
+      </ion-item>
+      <ion-item>
+        <h2>Pizzas de 1 ingrediente</h2>
+        <h3>Cupon - Q.10.00</h3>
+        <p>15% de descuento en Pizza...</p><hr>
+      </ion-item>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'promociones'">
+      <h1 class="buho">f</h1>
+      <p class="noPromo">No tienes ningún elemento agregado a<br> esta lista. Agrega ofertas y cupones<br> para usarlos después.</p>
+    </ion-list>
+
+  </div>
+</ion-content>
