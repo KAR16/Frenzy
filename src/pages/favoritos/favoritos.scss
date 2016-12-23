@@ -2,6 +2,24 @@ page-favoritos {
   //font-family: 'Bariol';
 }
 
+/* Parte 1 - Encabezado*/
+
+/* Header Titulo */
+.favHTitle{
+  text-align: center !important;
+  font-size: 15px;
+}
+
+.favHTitle img{
+  width: 75px;
+  margin-left: 60px;
+}
+
+/* Header Icono */
+.inHIcon{
+
+}
+
 .segment-md .segment-button{
   text-transform: capitalize !important;
   color: #00BAB9;

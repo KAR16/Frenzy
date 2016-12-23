@@ -1,10 +1,5 @@
+<!-- Header -->
 <ion-header>
-  <!-- <ion-navbar no-border-bottom>
-    <ion-title>
-      Frenzy
-    </ion-title>
-  </ion-navbar> -->
-
   <ion-toolbar no-border-top color="frenzy">
     <ion-buttons start>
       <button ion-button icon-only>
@@ -12,26 +7,36 @@
       </button>
     </ion-buttons>
 
-    <ion-title class="encabezado">Frenzy</ion-title>
+    <!-- Header  Titulo-->
+    <ion-title class="favHTitle">
+      <img src="../../assets/frenzy-icons/icn-35.png">
+    </ion-title>
 
     <ion-buttons end>
       <button ion-button icon-only>
-        <ion-icon ios="ios-settings" md="md-settings"></ion-icon>
+        <ion-icon class="favHIcon" ios="ios-settings" md="md-settings"></ion-icon>
       </button>
     </ion-buttons>
   </ion-toolbar>
+
+  <!-- Opciones -->
   <ion-segment [(ngModel)]="favoritos" color="frenzy">
+    <!-- Marcas -->
     <ion-segment-button class="titulos" value="marcas">
       Mis Marcas
     </ion-segment-button>
+    <!-- Promociones -->
     <ion-segment-button class="titulos" value="promociones">
       Mis Promociones
     </ion-segment-button>
   </ion-segment>
 </ion-header>
 
+
+<!-- Parte 1 - Contenido -->
 <ion-content>
   <div [ngSwitch]="favoritos">
+    <!-- Contenido de Marcas -->
     <ion-list *ngSwitchCase="'marcas'">
       <ion-list-header>
           <ion-icon name="heart" color="danger" item-left></ion-icon>
@@ -53,6 +58,7 @@
       </ion-item>
     </ion-list>
 
+    <!-- Contenido de Promociones -->
     <ion-list *ngSwitchCase="'promociones'">
       <h1 class="buho">f</h1>
       <p class="noPromo">No tienes ningún elemento agregado a<br> esta lista. Agrega ofertas y cupones<br> para usarlos después.</p>
