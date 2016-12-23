@@ -2,16 +2,22 @@ page-premios {
   font-family: 'Bariol'
 }
 
-/* Header */
-.encabezado{
-  font-family: "Bariol";
-  font-size: 30px;
+/* Parte 1 - Encabezado*/
+
+/* Header Titulo */
+.pmsHTitle{
+  text-align: center !important;
+  font-size: 15px;
 }
 
-/*Fuente Iconos*/
-@font-face {
-  font-family: "FrenzyText";
-  src: url("bariolblod.otf");
+.pmsHTitle img{
+  width: 75px;
+  margin-left: 60px;
+}
+
+/* Header Icono */
+.pmsHIcon{
+
 }
 
 /* Bloque 1 */
