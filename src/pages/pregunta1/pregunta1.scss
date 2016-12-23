@@ -1,3 +1,44 @@
 page-pregunta1 {
 
 }
+
+/**************** Parte 1  ****************/
+
+/* Encabezado */
+.p1Header{
+  background-color: #00DDC1;
+  height: 200px;
+}
+
+/* Icono Cerrar */
+.p1CloseIcon{
+  width: 25px;
+  margin-left: 3%;
+  margin-top: 3%;
+  opacity: 0.5;
+}
+
+/* Titulo */
+.p1Title{
+  color: #FFF;
+  font-family: 'Bariol';
+  text-align: center;
+  font-size: 19px;
+}
+
+/* Encabezado 2 */
+.p1Header2{
+  background-color: #00DDC1;
+  height: 100px;
+  margin-top: -1%;
+  -webkit-box-shadow: 2px 2px 10px #999;
+  -moz-box-shadow: 2px 2px 10px #999;
+}
+
+/**************** Parte 1  ****************/
+
+/* Contenido */
+.p1Content p{
+  padding-left: 5%;
+  margin-top: 7%;
+}
